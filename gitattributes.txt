@@ -1,0 +1,10 @@
+# Treat Jupyter Notebooks as text and force LF line endings
+*.ipynb text eol=lf
+
+# Force LF line endings for Python scripts and markdown files
+*.py text eol=lf
+*.md text eol=lf
+
+# Treat data files as binary so Git doesn't mess with their line endings
+*.csv binary
+*.xlsx binary
